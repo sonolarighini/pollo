@@ -1,0 +1,13 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  /* Sfondo a macchie con gradienti radiali sovrapposti in tonalità marroni */
+  background: 
+    radial-gradient(circle at 20% 30%, #8d5524 0 80px, transparent 100px), /* marrone scuro */
+    radial-gradient(circle at 70% 20%, #c68642 0 90px, transparent 120px), /* marrone chiaro */
+    radial-gradient(circle at 60% 70%, #a47551 0 100px, transparent 130px), /* marrone medio */
+    radial-gradient(circle at 80% 80%, #e0ac69 0 70px, transparent 100px), /* beige/marrone */
+    radial-gradient(circle at 30% 80%, #bc8f4a 0 60px, transparent 90px), /* marrone dorato */
+    #fffbe7;
+  background-size: cover;
+}
